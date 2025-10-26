@@ -1,0 +1,23 @@
+<h1>FORMULARIO</h1>
+<table class="table table-bordered">
+  <thead class="table-dark">
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Lastname</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    @for (user of Users; track user.id) {
+      <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.lastname }}</td>
+      </tr>
+    } @empty {
+    }
+  </tbody>
+</table>
+
+<!--<button (click)="addUser()" class="btn btn-primary">Agregar Usuario</button>-->

@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    box-shadow: 1px;
+    margin-top: 1rem;
+}
+
+table {
+    margin: 2rem auto;
+    width: 110rem;
+}
